@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2025-05-10T12:00:00Z",
+    "message": "Flow with destination port 54865 and label BENIGN",
+    "destination_port": 54865,
+    "flow_duration": 3,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:01Z",
+    "message": "Flow with destination port 55054 and label BENIGN",
+    "destination_port": 55054,
+    "flow_duration": 109,
+    "total_fwd_packets": 1,
+    "total_bwd_packets": 1,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:02Z",
+    "message": "Flow with destination port 55055 and label BENIGN",
+    "destination_port": 55055,
+    "flow_duration": 52,
+    "total_fwd_packets": 1,
+    "total_bwd_packets": 1,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:03Z",
+    "message": "Flow with destination port 46236 and label BENIGN",
+    "destination_port": 46236,
+    "flow_duration": 34,
+    "total_fwd_packets": 1,
+    "total_bwd_packets": 1,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:04Z",
+    "message": "Flow with destination port 54863 and label BENIGN",
+    "destination_port": 54863,
+    "flow_duration": 3,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:05Z",
+    "message": "Flow with destination port 54871 and label BENIGN",
+    "destination_port": 54871,
+    "flow_duration": 1022,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:06Z",
+    "message": "Flow with destination port 54925 and label BENIGN",
+    "destination_port": 54925,
+    "flow_duration": 4,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:07Z",
+    "message": "Flow with destination port 55085 and label BENIGN",
+    "destination_port": 55085,
+    "flow_duration": 3,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:08Z",
+    "message": "Flow with destination port 55144 and label BENIGN",
+    "destination_port": 55144,
+    "flow_duration": 1,
+    "total_fwd_packets": 2,
+    "total_bwd_packets": 0,
+    "label": "BENIGN"
+  },
+  {
+    "timestamp": "2025-05-10T12:00:09Z",
+    "message": "Flow with destination port 44444 and label DoS Hulk",
+    "destination_port": 44444,
+    "flow_duration": 1200,
+    "total_fwd_packets": 100,
+    "total_bwd_packets": 5,
+    "label": "DoS Hulk"
+  }
+]

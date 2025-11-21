@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: backend
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+server:
+  port: 8080
+
+elasticsearch:
+  image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+  environment:
+    - discovery.type=single-node
+    - xpack.security.enabled=false
+  ports:
+    - "9200:9200"
+
+kibana:
+  image: docker.elastic.co/kibana/kibana:8.11.1
+  depends_on:
+    - elasticsearch
+  ports:
+    - "5601:5601"
+  environment:
+    - ELASTICSEARCH_HOSTS=http://elasticsearch:9200

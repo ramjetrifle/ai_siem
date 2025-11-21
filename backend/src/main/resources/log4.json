@@ -1,0 +1,14 @@
+[
+    {
+        "timestamp": "2025-05-11T04:44:50Z",
+        "event": "login_success",
+        "username": "john_doe",
+        "source_ip": "185.22.45.13"
+    },
+    {
+        "timestamp": "2025-05-11T04:45:01Z",
+        "event": "file_access",
+        "username": "john_doe",
+        "filename": "confidential.pdf"
+    }
+]
