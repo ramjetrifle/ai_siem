@@ -7,8 +7,8 @@ import java.nio.charset.StandardCharsets;
 
 
 public class TelegramNotifier {
-    private static final String BOT_TOKEN = "REDACTED_BOT_TOKEN";
-    private static final String CHAT_ID = "REDACTED_CHAT_ID";
+    private static final String BOT_TOKEN = "TOKEN";
+    private static final String CHAT_ID = "ID";
 
 
     public void send(String message) {
