@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class GeminiEnrichmentService {
 
-    private static final String API_KEY = "REDACTED_API_KEY";
+    private static final String API_KEY = "API_Key";
 
     public boolean isAnomalous(String logText) {
         try {
